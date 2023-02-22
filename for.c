@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(){
-    int i;
+    int i, num;
+    printf("Digite um numero: ");
+    scanf("%d", &num);
     for(i=1; i <=10; i++){
         printf("%d", i);
     }
